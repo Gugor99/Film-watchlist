@@ -1,0 +1,119 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gabarito', sans-serif;
+}
+
+#top-texts, #list-item, #middle, #top{
+    display: flex;
+    align-self: flex-end;
+}
+
+button{
+    font-family: 'Gabarito', sans-serif;
+}
+
+#top-texts{
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) );
+    background-color: red;
+    background-position: center;
+    background-size: cover;
+    min-height: 150px;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.search-bar{
+    display: flex;
+    justify-content: center;
+    margin: -8px;
+}
+
+#movie-img{
+    margin: 15px;
+    width: 120px;
+    height: 170px;
+}
+
+.film-title{
+    font-size: 20px;
+    width: 150px;
+    flex-wrap: wrap;
+}
+
+.film-title, .p{
+    margin-right: 20px;
+}
+
+#add-btn{
+    display: flex;
+    align-items: baseline;
+    cursor: pointer;
+}
+
+.top-left{
+    border: none;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#search-input{
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border: 2px solid lightgray;
+    padding: 10px;
+
+}
+
+h4{
+    font-size: 15px;
+}
+
+#search-btn{
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: lightcyan;
+    border: 2px solid lightgray;
+    color: gray;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#list-item{
+    width: 70%;
+    justify-content: center;
+    margin: 20px auto;
+    border-bottom: 1px solid gray;
+}
+
+.fa-solid {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    height: 20px; 
+    width: 20px;
+    font-size: 25px;
+    margin-right: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.notification {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 16px; 
+    border-radius: 8px; 
+}
+
+.desc{
+    max-width: 400px;
+}
